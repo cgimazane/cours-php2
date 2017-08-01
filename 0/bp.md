@@ -2,7 +2,11 @@
 
 # Les bonnes pratiques & généralités
 
-psr
+## PHP Standards Recommendations
+
+PSR
+
+http://www.php-fig.org/psr/
 
 psr composer
 
