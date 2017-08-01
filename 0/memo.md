@@ -1,3 +1,5 @@
+[Retour au cours](../cours.md)
+
 # Les langages
 
 ## html
@@ -48,6 +50,4 @@ h1 {
 - Utiliser des noms de fichiers ou de dossiers simples
 
 
-# Liens utiles
-
-* [Cours](cours.md)
+[Retour au cours](../cours.md)
