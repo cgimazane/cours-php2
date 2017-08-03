@@ -1,3 +1,5 @@
+[Retour au cours](../cours.md)
+
 # BDD
 
 ## Connexion
@@ -51,9 +53,6 @@ $allResults = $prep->fetchAll();
 
 ```
 
-
----
-
 ## Hydratation des objets
 
 Principe : fournir des données correspondant à ses attributs pour qu'il assigne les valeurs souhaitées à ces derniers.
@@ -78,6 +77,4 @@ CRUD (Create, Read, Update, Delete)
 * supprimer une entité
 * sélectionner une entité
 
-=> Création d'une nouvelle classe pour gérer les entités Person issues de la BDD
-
----
+[Retour au cours](../cours.md)

@@ -12,4 +12,6 @@
 - pour une personne, tous les tâches qui lui sont affectées
 - la liste des taches
 
+Création d'une nouvelle classe pour gérer les entités Person issues de la BDD
+
 [Retour au cours](../cours.md)

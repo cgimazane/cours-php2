@@ -1,5 +1,6 @@
-# La programmation orientée objet
+[Retour au cours](../cours.md)
 
+# La programmation orientée objet
 
 ## Objet
 
@@ -13,17 +14,13 @@ Exemple :
 
 Mon objet $worker est basé sur la classe Person.
 
-```
+```php
 <?php
 	$worker = new Person();
 	echo $worker->name;
 	$worker->do($task);
 ?>
 ```
-
----
-
-
 
 ## Classe
 
@@ -38,9 +35,9 @@ Elle implémente les variables et fonctions utilisées par l'objet
 
 Exemple :
 
-Ma classe Person (sauvée dans ```Person.class.php```)
+Ma classe Person (sauvée dans `Person.php`)
 
-```
+```php
 <?php
 
 class Person {
@@ -59,17 +56,17 @@ On définit donc :
 
 * des variables membres : Attributs ou propriétés
 * des fonctions membres : Méthodes (principe d'encapsulation)
-* des constantes ```const```
+* des constantes `const`
 
-De plus, ```$this``` est une référence à l'objet appelant
+De plus, `$this` est une référence à l'objet appelant
 
 #### Accès au contenu de la classe
 
 3 niveaux de droits d'accès :
 
-* ```private``` : la classe seule peut accéder au contenu
-* ```protected``` : la classe seule et ses classes filles peuvent accéder au contenu
-* ```public``` : tout le monde peut accéder à l'élément
+* `private` : la classe seule peut accéder au contenu
+* `protected` : la classe seule et ses classes filles peuvent accéder au contenu
+* `public` : tout le monde peut accéder à l'élément
 
 ### Variables
 
@@ -86,9 +83,9 @@ De plus, ```$this``` est une référence à l'objet appelant
 
 ### Autres fonctions (magiques)
 
-* ```__construct()``` : appelé pour créer l'objet
-* ```__destruct()``` : appelé pour détruire l'objet
-* ```__toString()``` : appelé lorsque l'on veut afficher l'objet
+* `__construct()` : appelé pour créer l'objet
+* `__destruct()` : appelé pour détruire l'objet
+* `__toString()` : appelé lorsque l'on veut afficher l'objet
 
 => Ajouter un construct et un toString à la classe Person
 
@@ -104,7 +101,7 @@ La classe fille sera basée sur la classe mère :
 * elle aura d'autres attributs/méthodes
 
 
-```
+```php
 <?php
 
 class Boss extends Person {
@@ -115,3 +112,4 @@ class Boss extends Person {
 
 ?>
 ```
+[Retour au cours](../cours.md)
