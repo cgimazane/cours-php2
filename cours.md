@@ -41,13 +41,3 @@
 ## 3.2 - Pratique
 
 [mvc-exos](3/exos.md)
-
-# 4 - tests
-
-## 4.1 - Théorie
-
-[tests](4/tests.md)
-
-## 4.2 - Pratique
-
-[tests-exos](4/exos.md)
