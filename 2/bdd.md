@@ -77,4 +77,8 @@ CRUD (Create, Read, Update, Delete)
 * supprimer une entité
 * sélectionner une entité
 
+### Extension
+
+possibilité de créer un "abstract manager"
+
 [Retour au cours](../cours.md)
