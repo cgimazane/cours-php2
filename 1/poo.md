@@ -97,9 +97,8 @@ class Boss extends Person {
 
 Les classes `abstraites` ne peuvent pas être instanciées, et toute classe contenant au moins une méthode abstraite doit elle-aussi être abstraite.
 
-#### Mot-clé
+#### Mot-clé
 
 `abstract`
-
 
 [Retour au cours](../cours.md)

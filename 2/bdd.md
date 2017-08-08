@@ -2,62 +2,53 @@
 
 # BDD
 
-## Connexion
+## Rappels : connexion
 
 PDO : Php Data Objects
 
 ### Création
 
-
-```
-<?php
+```php
 try {
-$strConnection = 'mysql:host=localhost;dbname=php2';
-$db = new PDO($strConnection, 'root', '');
-}
-catch(PDOException $e) {
-    $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
-    die($msg);
+  $strConnection = 'pgsql:host=localhost;dbname=php1';
+  $db = new PDO($strConnection, user, password);
+}catch(PDOException $e) {
+  $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
+  die($msg);
 }
 ```
 
 ### Utilisation
 
-```
-<?php
-//requete #1
+```php
+/** 1er type de requete **/
 $query = 'SELECT * FROM person;';
 
 $stmt = $db->query($query);
 
 $allResults = $stmt->fetchAll();
 
-//requete #2
-$query = 'DELETE FROM person WHERE id=1;';
+/** 2nd type de requete **/
+$query = 'DELETE FROM person WHERE nom="Patamob";';
 
-$rowCount = $pdo->exec($query);
+$rowCount = $db->exec($query);
 
-//requete #3
-$query = 'SELECT * FROM person WHERE name=:nom LIMIT :limite;';
+/** 3eme type de requete **/
+$query = 'SELECT * FROM person WHERE nom=:nom LIMIT :limite;';
 
-$prep = $pdo->prepare($query);
+$prep = $db->prepare($query);
 
-$prep->bindValue(':limite', 10);
+$prep->bindValue(':limite', 2);
 $prep->bindValue(':nom', $name);
 
 $prep->execute();
 
 $allResults = $prep->fetchAll();
-
-?>
-
 ```
 
 ## Hydratation des objets
 
 Principe : fournir des données correspondant à ses attributs pour qu'il assigne les valeurs souhaitées à ces derniers.
-
-=> Ajouter une fonction ```hydrate()``` à la class Person
 
 ## Gestion de la BDD
 
