@@ -6,7 +6,7 @@
 
 ## Objectifs
 
-* Liste
-* Liste
+* Avec les propriétés adéquates
+* Ajouter getters/setters
 
 [Retour au cours](../cours.md)

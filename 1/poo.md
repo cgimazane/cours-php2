@@ -15,11 +15,9 @@ Exemple :
 Mon objet $worker est basé sur la classe Person.
 
 ```php
-<?php
-	$worker = new Person();
-	echo $worker->name;
-	$worker->do($task);
-?>
+$worker = new Person();
+echo $worker->name;
+$worker->do($task);
 ```
 
 ## Classe
@@ -38,16 +36,13 @@ Exemple :
 Ma classe Person (sauvée dans `Person.php`)
 
 ```php
-<?php
-
 class Person {
 
-    public $name;
+  public $name;
 
-	public function do($task) {
+  public function do($task) {
 		//code
-	}
-?>
+}
 ```
 
 ### Construction
@@ -68,10 +63,6 @@ De plus, `$this` est une référence à l'objet appelant
 * `protected` : la classe seule et ses classes filles peuvent accéder au contenu
 * `public` : tout le monde peut accéder à l'élément
 
-### Variables
-
-=> Créer la classe Person avec les propriétés adéquates
-
 ### Méthodes
 
 2 types de fonctions :
@@ -79,19 +70,13 @@ De plus, `$this` est une référence à l'objet appelant
 * getters et setters : pour lire et MaJ les attributs
 * éxecuter d'autres actions plus complexes
 
-=> Ajouter les getters/setters à la classe Person
-
 ### Autres fonctions (magiques)
 
 * `__construct()` : appelé pour créer l'objet
 * `__destruct()` : appelé pour détruire l'objet
 * `__toString()` : appelé lorsque l'on veut afficher l'objet
 
-=> Ajouter un construct et un toString à la classe Person
-
----
-
-### Héritage
+## Héritage
 
 Il est possible de créer une classe fille spécifiant la classe parent
 
@@ -100,16 +85,21 @@ La classe fille sera basée sur la classe mère :
 * elle aura toutes les fonctions de la classe mère
 * elle aura d'autres attributs/méthodes
 
-
 ```php
-<?php
-
 class Boss extends Person {
 
 	public function assignTask($person){
 
-	}
-
-?>
+}
 ```
+
+### Abstraction
+
+Les classes `abstraites` ne peuvent pas être instanciées, et toute classe contenant au moins une méthode abstraite doit elle-aussi être abstraite.
+
+#### Mot-clé
+
+`abstract`
+
+
 [Retour au cours](../cours.md)
