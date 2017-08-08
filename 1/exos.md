@@ -2,7 +2,7 @@
 
 # Amélioration de notre page
 
-* Création de notre classe Person
+* Création de nos classes Person et Bureau
 
 ## Objectifs
 
