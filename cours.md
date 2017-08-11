@@ -38,11 +38,11 @@
 
 [tests-exos](3/exos.md)
 
-# 4 - mvc
+# 4 - Architecture
 
 ## 4.1 - Théorie
 
-[mvc](4/mvc.md)
+[archi](4/archi.md)
 
 ## 4.2 - Pratique
 
