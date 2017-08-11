@@ -6,7 +6,7 @@
 
 # Exercices
 
-Création d'une nouvelle classe pour gérer les entités Person issues de la BDD => `hydrate()`
+Création d'une nouvelle classe pour gérer les entités Person issues de la BDD => `hydrate()` ainsi que du manager associé
 
 3 pages :
 
