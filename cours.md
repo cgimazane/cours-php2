@@ -28,22 +28,22 @@
 
 [bdd-exos](2/exos.md)
 
-# 3 - mvc
+# 3 - tests
 
 ## 3.1 - Théorie
 
-[mvc](3/mvc.md)
+[tests](3/tests.md)
 
 ## 3.2 - Pratique
 
-[mvc-exos](3/exos.md)
+[tests-exos](3/exos.md)
 
-# 4 - tests
+# 4 - mvc
 
 ## 4.1 - Théorie
 
-[tests](4/tests.md)
+[mvc](4/mvc.md)
 
 ## 4.2 - Pratique
 
-[tests-exos](4/exos.md)
+[mvc-exos](4/exos.md)
