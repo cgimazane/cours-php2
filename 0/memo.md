@@ -1,3 +1,5 @@
+[Retour au cours](../cours.md)
+
 # Les langages
 
 ## html
@@ -116,4 +118,4 @@ Sinon y'a StackOverflow
     + jfgi
       * stfw
 
-* [Cours](cours.md)
+[Retour au cours](../cours.md)
