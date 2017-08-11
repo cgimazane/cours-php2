@@ -1,6 +1,6 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# Amélioration de notre application
 
 * Création de notre classe Person
 

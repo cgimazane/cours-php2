@@ -1,8 +1,8 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# Création de notre application
 
-* Création de nos classes Person et Bureau
+* Création de nos classes Personne et Bureau
 
 ## Objectifs
 

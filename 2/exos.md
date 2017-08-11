@@ -1,6 +1,6 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# Amélioration de notre application
 
 * Reprise de l'application en ajoutant de la gestion des données
 

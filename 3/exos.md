@@ -1,12 +1,11 @@
 [Retour au cours](../cours.md)
 
-# Amélioration de notre page
+# Amélioration de notre application
 
-* Création de notre classe Person
+* Mise en place de tests simples sur notre application
 
 ## Objectifs
 
-* Liste
-* Liste
+* Utilisation de PHPUnit
 
 [Retour au cours](../cours.md)
