@@ -9,3 +9,18 @@ INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Menvussa','Gér
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bambel','Larry','m','2014-04-04');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Adhémar','m','1978-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Alphonse','m','1956-07-24');
+
+INSERT INTO tool (name) VALUES ('scie');
+INSERT INTO tool (name) VALUES ('souffleur de feuilles');
+INSERT INTO tool (name) VALUES ('couteau');
+INSERT INTO tool (name) VALUES ('téléphone');
+INSERT INTO tool (name) VALUES ('ordinateur');
+INSERT INTO tool (name) VALUES ('marteau-piqueur');
+INSERT INTO tool (name) VALUES ('pinceau');
+INSERT INTO tool (name) VALUES ('tournevis');
+INSERT INTO tool (name) VALUES ('chariot élévateur');
+INSERT INTO tool (name) VALUES ('plastifieuse');
+INSERT INTO tool (name) VALUES ('stylo');
+INSERT INTO tool (name) VALUES ('tablette tactile');
+INSERT INTO tool (name) VALUES ('vidéoprojecteur');
+INSERT INTO tool (name) VALUES ('trépied');
