@@ -1,3 +1,10 @@
+CREATE TABLE bureau (
+	nom VARCHAR (255) ,
+	batiment VARCHAR (1),
+	etage int,
+	PRIMARY KEY (nom)
+);
+
 CREATE TABLE personne (
 	nom VARCHAR (255),
 	prenom VARCHAR (255),
@@ -9,9 +16,3 @@ CREATE TABLE personne (
 	FOREIGN KEY (bureau) REFERENCES bureau(nom)
 );
 
-CREATE TABLE bureau (
-	nom VARCHAR (255) ,
-	batiment VARCHAR (1),
-	etage int,
-	PRIMARY KEY (nom)
-);
