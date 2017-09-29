@@ -1,18 +1,8 @@
-CREATE TABLE bureau (
-	nom VARCHAR (255) ,
-	batiment VARCHAR (1),
-	etage int,
-	PRIMARY KEY (nom)
+CREATE TABLE person (
+	id SERIAL,
+	lastname VARCHAR (255),
+	firstname VARCHAR (255),
+	gender VARCHAR (1),
+	birthday date,
+	PRIMARY KEY(id)
 );
-
-CREATE TABLE personne (
-	nom VARCHAR (255),
-	prenom VARCHAR (255),
-	sexe VARCHAR (1),
-	age INT,
-	lunettes BOOLEAN,
-	bureau VARCHAR (255),
-	PRIMARY KEY(nom,prenom),
-	FOREIGN KEY (bureau) REFERENCES bureau(nom)
-);
-
