@@ -50,6 +50,7 @@ On gère les __événements__ grâce aux différentes __fonctions__ définies pr
 function maSuperAlerte() {
   alert('What a magnifique boite de dialogue...');
 }
+</script
 ```
 
 ## php
@@ -85,11 +86,11 @@ On propose à l'utilisateur de fournir des données/informations
 
 ## bibliothèqyes et dépendances
 
-outil/langage | php | nodeJs
+/ | php
 --- | --- | ---
-descripteur de projet | composer.json | package.json
-dépot central | Packagist | npmjs
-utilitaire | composer | npm
+descripteur de projet | composer.json
+dépot central | Packagist
+utilitaire |composer
 
 # Guidelines
 
