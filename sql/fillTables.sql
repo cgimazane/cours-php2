@@ -4,7 +4,7 @@ INSERT INTO article (title, content, publication_date) VALUES ('Repas', 'La dire
 INSERT INTO article (title, content, publication_date) VALUES ('Fermeture des locaux', E'Les locaux de l\'entreprise seront fermés du 24/12 au 02/01', '2017-10-07');
 
 --person
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tenrien','Jean','m','1791-12-26');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tenrien','Jean','m','1991-12-26');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Houarien','Yves','m','2002-02-09');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tartine','Kimberley','f','1992-12-12');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Hervitemonslip','Jean-Philippe','m','1989-05-03');
@@ -13,8 +13,12 @@ INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Javel','Aude','
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Honnette','Marie','f','1960-04-02');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Menvussa','Gérard','m','1956-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bambel','Larry','m','2014-04-04');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Clette','Lara','f','1998-07-12');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Adhémar','m','1978-07-24');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Talu','Jean','m','1902-10-26');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Alphonse','m','1956-07-24');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Hassain','Marc','m','1972-10-26');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Culaire','Laurie','f','1982-10-28');
 
 --tool
 INSERT INTO tool (name) VALUES ('scie');
@@ -31,6 +35,7 @@ INSERT INTO tool (name) VALUES ('stylo');
 INSERT INTO tool (name) VALUES ('tablette tactile');
 INSERT INTO tool (name) VALUES ('vidéoprojecteur');
 INSERT INTO tool (name) VALUES ('trépied');
+INSERT INTO tool (name) VALUES ('échafaudage');
 
 --task
 INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('répondre au courrier', 100, 5, false);

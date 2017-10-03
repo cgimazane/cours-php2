@@ -39,17 +39,17 @@ Sur toutes les pages, doivent être présents :
 ## Accueil
 
 * Accès rapide aux 3 rubriques différentes
-* Affichage des 2 articles les plus récent type blog en première page
+* Affichage des 2 articles les plus récents type blog en première page
 
 ## L'équipe
 
 Une liste de tous les équipiers
-Il sera ici visible si un employé est occupé à réaliser une tâche ou s'il est disponible
+Il sera ici visible si un employé est occupé à réaliser une tâche (ou surmené) ou s'il est disponible
 
 ### Le membre
 
 Une vue détaillée du membre avec toutes les tâches qu'il a effectuées
-Il sera ajouté divers indicateurs pour savoir si l'employé est surmené
+Il sera ajouté divers indicateurs pour savoir si l'employé est surmené :
 * Si un ouvrier fait plus de 50% de tâches pénibles
 * Si un ouvrier fait plus de tâches que de raison
 * Si un ouvrier est occupé
@@ -67,9 +67,12 @@ De plus, il sera possible de laisser un commentaire à propos de la tâche.
 
 ## Les outils
 
+Une liste de tous les outils
+Il sera ici visible si un outil est utilsé
+
 ### L'outil
 
-
+Une vue détaillée de l'outil
 
 # Contraintes
 
