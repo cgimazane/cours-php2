@@ -1,7 +1,7 @@
 --article
 CREATE TABLE article (
 	id SERIAL,
-	name VARCHAR (50),
+	title VARCHAR (50),
     content TEXT,
 	publication_date DATE,
 	PRIMARY KEY(id)
@@ -46,3 +46,4 @@ CREATE TABLE tool_task(
 
 /*
 ON DELETE CASCADE signifie que si une tâche est supprimée, il faut aussi supprimer les liens
+*/

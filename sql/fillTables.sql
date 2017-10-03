@@ -1,3 +1,8 @@
+--article
+INSERT INTO article (title, content, publication_date) VALUES ('Ouverture du site', 'Ouverture de notre site de gestion des tâches', '2017-10-03');
+INSERT INTO article (title, content, publication_date) VALUES ('Repas', 'La direction paie un plat du jour demain le 05/10/2017', '2017-10-04');
+INSERT INTO article (title, content, publication_date) VALUES ('Fermeture des locaux', E'Les locaux de l\'entreprise seront fermés du 24/12 au 02/01', '2017-10-07');
+
 --person
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tenrien','Jean','m','1791-12-26');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Houarien','Yves','m','2002-02-09');
