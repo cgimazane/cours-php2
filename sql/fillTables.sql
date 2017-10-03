@@ -1,3 +1,4 @@
+--person
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tenrien','Jean','m','1791-12-26');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Houarien','Yves','m','2002-02-09');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tartine','Kimberley','f','1992-12-12');
@@ -10,6 +11,7 @@ INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bambel','Larry'
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Adhémar','m','1978-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Alphonse','m','1956-07-24');
 
+--tool
 INSERT INTO tool (name) VALUES ('scie');
 INSERT INTO tool (name) VALUES ('souffleur de feuilles');
 INSERT INTO tool (name) VALUES ('couteau');
@@ -24,3 +26,18 @@ INSERT INTO tool (name) VALUES ('stylo');
 INSERT INTO tool (name) VALUES ('tablette tactile');
 INSERT INTO tool (name) VALUES ('vidéoprojecteur');
 INSERT INTO tool (name) VALUES ('trépied');
+
+--task
+INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('répondre au courrier', 100, 5, false);
+INSERT INTO task (name , completion_rate, person_id) VALUES ('paver le trottoir', 100, 4);
+INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('créer un site internet', 100, 4, false);
+INSERT INTO task (name , completion_rate, person_id) VALUES ('vider les poubelles', 100, 4);
+INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('répondre au courriel', 100, 2, false);
+INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('diffuser un film promotionnel', 100, 2, false);
+INSERT INTO task (name , completion_rate, person_id) VALUES ('peindre le premier étage', 100, 10);
+INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('distribuer des cartes de visites', 100, 9, false);
+INSERT INTO task (name , completion_rate, person_id) VALUES ('déplacer les meubles', 100, 2);
+
+INSERT INTO task (name , completion_rate, person_id) VALUES ('peindre le deuxième étage', 60, 10);
+
+INSERT INTO task (name) VALUES ('peindre le troisième étage');

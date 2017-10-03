@@ -28,7 +28,9 @@ D | Dependency Inversion Principle | * High level modules should not depend on l
 
 **K**eep **I**t **S**imple, **S**tupid
 
-YAGNI – You Aren’t Gonna Need It
+#### YAGNI
+
+**Y**ou **A**ren’t **G**onna **N**eed It
 
 #### DRY
 
@@ -44,20 +46,23 @@ Never Trust User Input
 
 ### Citations
 
-The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
-souvent référeé comme
-Nine women can’t make a baby in a month.
+* The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
+  * souvent référeé comme "Nine women can’t make a baby in a month.""
 
-Inside every large program, there is a small program trying to get out.
+* One of my most productive days was throwing away 1000 lines of code.
 
-One of my most productive days was throwing away 1000 lines of code.
+* Simplicity is the soul of efficiency.
 
-Simplicity is the soul of efficiency.
+* Before software can be reusable, it first has to be usable.
 
-Before software can be reusable it first has to be usable.
+* When debugging, novices insert corrective code; experts remove defective code.
 
-When debugging, novices insert corrective code; experts remove defective code.
+* Premature optimization is the root of all evil in programming.
 
-Premature optimization is the root of all evil in programming.
+## Autres conseils
+
+* Backup
+
+* Dépôts communs
 
 [Retour au cours](../cours.md)
