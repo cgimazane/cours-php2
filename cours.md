@@ -44,6 +44,4 @@
 
 [archi](4/archi.md)
 
-## 4.2 - Pratique
-
-[mvc-exos](4/exos.md)
+# Conclusion

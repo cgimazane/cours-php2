@@ -83,7 +83,7 @@ On propose à l'utilisateur de fournir des données/informations
  </form>
 ```
 
-## bibliothèqyes et dépendances
+## bibliothèques et dépendances
 
 outil/langage | php | nodeJs
 --- | --- | ---
@@ -91,11 +91,11 @@ descripteur de projet | composer.json | package.json
 dépot central | Packagist | npmjs
 utilitaire | composer | npm
 
-# Guidelines
+# Rappels
 
 - Toujours bien vérifier que si une balise est ouverte, elle __doit__ être fermée
 
-- Toujours bien __terminer__ un style (css) ou une instruction (php) par un ;
+- Toujours bien __terminer__ un style (css) ou une instruction (js/php) par un ;
 
 - Garder un code propre bien `indenté` (pour faciliter la relecture)
 
@@ -104,6 +104,8 @@ utilitaire | composer | npm
 - Attention à la structure et aux métadonnées du document
 
 - Ne pas __abuser__ du copier/coller
+
+- Structurer proprement son projet
 
 - Utiliser des noms de fichiers ou de dossiers simples
 
