@@ -27,10 +27,9 @@ Procédure qui va vérifier qu'une partie (unité) du code source a le fonctionn
 
 Procédure qui va évaluer la conformité par rapport aux exigences demandées
 
-### Exemples
+### Exemples
 
 * Tests de performance
 * Tests de charge
-* Tests de régression
 
 [Retour au cours](../cours.md)

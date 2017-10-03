@@ -48,4 +48,10 @@
 
 [archi](4/archi.md)
 
+## 3.2 - Pratique
+
+[archi-exos](4/exos.md)
+
 # Conclusion
+
+[fin](5/fin.md)

@@ -2,7 +2,7 @@
 
 # Création de notre application
 
-* Création de nos classes Personne et Bureau
+* Création de nos classes
 
 ## Objectifs
 

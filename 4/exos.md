@@ -2,11 +2,10 @@
 
 # Amélioration de notre application
 
-* Création de notre classe Person
+* Prise en main rapide de Symfony
 
 ## Objectifs
 
-* Liste
-* Liste
+* Reproduction des différents travaux qui ont été faits dans les exercices précédents
 
 [Retour au cours](../cours.md)

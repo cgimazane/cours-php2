@@ -1,10 +1,14 @@
-#
+[Retour au cours](../cours.md)
 
+# Présentation du projet
 
-Start project
+Démarrage et lancement du projet
 
-réflexion sur structure : présentation projet
+## Objectifs
 
-structure projet -> psr (création dossier src)
-creation composer.json
-chargement de la base de données
+* Lecture du cahier des charges
+* Structure du projet
+* Création composer.json
+* Création de la base de données
+
+[Retour au cours](../cours.md)

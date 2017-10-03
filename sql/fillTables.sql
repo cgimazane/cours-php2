@@ -38,7 +38,7 @@ INSERT INTO tool (name) VALUES ('trépied');
 INSERT INTO tool (name) VALUES ('échafaudage');
 
 --task
-INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('répondre au courrier', 100, 5, false);
+INSERT INTO task (name , completion_rate, person_id, inconvenient, comment) VALUES ('répondre au courrier', 100, 5, false, 'ne pas utiliser l''ordinateur');
 INSERT INTO task (name , completion_rate, person_id) VALUES ('paver le trottoir', 100, 4);
 INSERT INTO task (name , completion_rate, person_id, inconvenient) VALUES ('créer un site internet', 100, 4, false);
 INSERT INTO task (name , completion_rate, person_id) VALUES ('vider les poubelles', 100, 4);
