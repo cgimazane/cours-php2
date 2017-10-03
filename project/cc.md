@@ -12,7 +12,11 @@ Il sera composé de :
 * Une base de données contenant les données
 * Une interface de consultation de ces données selon différents critères
 
-# Demandes
+# Ergonomie
+
+## Couleur
+
+Le site devra être très facile à prendre et le plus intuitif : les décideurs ne veulent pas perdre de temps en formation, une documentation approfondie leur suffira.
 
 ![logo](logo.png)
 
@@ -23,9 +27,7 @@ secondaire | #07889b
 tertiaire | #66b9bf
 supplémentaire | #eeaa7b
 
-Le site devra être très facile à prendre et le plus intuitif : les décideurs ne veulent pas perdre de temps en formation, une documentation approfondie leur suffira.
-
-# Arborescence
+# Plan du site
 
 ![arborescence](arborescence.png)
 
@@ -39,7 +41,7 @@ Sur toutes les pages, doivent être présents :
 ## Accueil
 
 * Accès rapide aux 3 rubriques différentes
-* Affichage des 2 articles les plus récents type blog en première page
+* Affichage des 2 **articles** *les plus récents* type blog en première page
 
 ## L'équipe
 
@@ -68,7 +70,7 @@ De plus, il sera possible de laisser un commentaire à propos de la tâche.
 ## Les outils
 
 Une liste de tous les outils
-Il sera ici visible si un outil est utilsé
+Il sera ici visible si un outil est utilisé
 
 ### L'outil
 

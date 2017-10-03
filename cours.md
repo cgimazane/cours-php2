@@ -42,13 +42,13 @@
 
 [tests-exos](3/exos.md)
 
-# 4 - Architecture
+# 4 - archi
 
 ## 4.1 - Théorie
 
 [archi](4/archi.md)
 
-## 3.2 - Pratique
+## 4.2 - Pratique
 
 [archi-exos](4/exos.md)
 
