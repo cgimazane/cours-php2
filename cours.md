@@ -8,6 +8,10 @@
 
 [bp](0/bp.md)
 
+## 0.3 - Pratique
+
+[start-exos](0/exos.md)
+
 # 1 - poo
 
 ## 1.1 - Théorie

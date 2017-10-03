@@ -10,6 +10,8 @@ http://www.php-fig.org/psr/
 
 ## Règles de développement
 
+Les acronymes sont des principes de développement.
+
 ### Acronymes
 
 #### SOLID
@@ -26,15 +28,29 @@ D | Dependency Inversion Principle | * High level modules should not depend on l
 
 **K**eep **I**t **S**imple, **S**tupid
 
+YAGNI – You Aren’t Gonna Need It
+
 #### DRY
 
 **D**on't **R**epeat **Y**ourself
+aka
+**D**uplication **I**s **E**vil
 
 ### Proverbes
 
 Ne pas réinventer la roue (carrée)
 
 Never Trust User Input
+
+### Citations
+
+Nine people can’t make a baby in a month.
+
+One of my most productive days was throwing away 1000 lines of code.
+
+Before software can be reusable it first has to be usable.
+
+When debugging, novices insert corrective code; experts remove defective code.
 
 
 [Retour au cours](../cours.md)

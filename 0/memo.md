@@ -50,7 +50,7 @@ On gère les __événements__ grâce aux différentes __fonctions__ définies pr
 function maSuperAlerte() {
   alert('What a magnifique boite de dialogue...');
 }
-</script
+</script>
 ```
 
 ## php
@@ -84,7 +84,7 @@ On propose à l'utilisateur de fournir des données/informations
  </form>
 ```
 
-## bibliothèques et dépendances
+## lib
 
 / | php
 --- | --- | ---

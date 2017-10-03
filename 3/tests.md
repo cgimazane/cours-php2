@@ -21,4 +21,16 @@ Procédure qui va vérifier qu'une partie (unité) du code source a le fonctionn
 * Sécuriser la maintenance
 * Documenter le code
 
+### Structure
+
+## Tests fonctionnels
+
+Procédure qui va évaluer la conformité par rapport aux exigences demandées
+
+### Exemples
+
+* Tests de performance
+* Tests de charge
+* Tests de régression
+
 [Retour au cours](../cours.md)
