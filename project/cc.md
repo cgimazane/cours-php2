@@ -32,7 +32,7 @@ supplémentaire | #eeaa7b
 
 ![arborescence](arborescence.png)
 
-# Contexte
+# Contexte
 
 Dans l'entreprise _Ben & Fils_, chacun des employés libres se voit affecter une tâche ainsi que des outils nécessaires pour la réalisation de cette tâche.
 
@@ -68,10 +68,11 @@ Il sera ici visible si une tâche est terminée ou non, son état d'avancement..
 
 ### La tâche
 
-Une vue détaillée de la tâche avec tous les outils requis et l'ouvrier sélectionné s'il a été choisi.
+Une vue détaillée de la tâche avec tous les outils requis et l'ouvrier sélectionné s'il a été choisi
 Il sera possible d'affecter un ouvrier à une tâche
-Si la tâche est en train d'être réalisée, on veut voir le taux d'avancement.
-De plus, il sera possible de laisser un commentaire à propos de la tâche.
+Une tâche pénible ne peut pas être attribuée à un employé de plus de 50 ans
+Si la tâche est en train d'être réalisée, on veut voir le taux d'avancement
+De plus, il sera possible de laisser un commentaire à propos de la tâche
 
 ## Les outils
 
