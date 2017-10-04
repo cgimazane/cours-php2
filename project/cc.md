@@ -11,12 +11,13 @@ Les commanditaires insistent sur la robustesse du système.
 Il sera composé de :
 * Une base de données contenant les données
 * Une interface de consultation de ces données selon différents critères
+* Un système de gestion d'articles
 
 # Ergonomie
 
 ## Couleur
 
-Le site devra être très facile à prendre et le plus intuitif : les décideurs ne veulent pas perdre de temps en formation, une documentation approfondie leur suffira.
+Le site devra être très facile à prendre en main et le plus intuitif possible : les décideurs ne veulent pas perdre de temps en formation, une documentation approfondie leur suffira.
 
 ![logo](logo.png)
 
@@ -30,6 +31,10 @@ supplémentaire | #eeaa7b
 # Plan du site
 
 ![arborescence](arborescence.png)
+
+# Contexte
+
+Dans l'entreprise _Ben & Fils_, chacun des employés libres se voit affecter une tâche ainsi que des outils nécessaires pour la réalisation de cette tâche.
 
 # Description fonctionnelle
 
@@ -59,11 +64,12 @@ Il sera ajouté divers indicateurs pour savoir si l'employé est surmené :
 ## Les tâches
 
 Une liste de toutes les tâches
-Il sera ici visible si une tâche est terminée ou non
+Il sera ici visible si une tâche est terminée ou non, son état d'avancement...
 
 ### La tâche
 
 Une vue détaillée de la tâche avec tous les outils requis et l'ouvrier sélectionné s'il a été choisi.
+Il sera possible d'affecter un ouvrier à une tâche
 Si la tâche est en train d'être réalisée, on veut voir le taux d'avancement.
 De plus, il sera possible de laisser un commentaire à propos de la tâche.
 
@@ -79,3 +85,4 @@ Une vue détaillée de l'outil
 # Contraintes
 
 * Un menu permettant de naviguer entre toutes les pages de niveau 2 et pouvant ramener à l'accueil
+* Fonctionnement OK sous IE > 8, Chrome > 20, Firefox > 4, Opera > 10, Safari > 6
