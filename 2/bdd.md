@@ -64,9 +64,9 @@ Rien ne nous permet de gérer les différentes tables de la BDD (add, delete ...
 CRUD (Create, Read, Update, Delete)
 
 * enregistrer une nouvelle entité
+* sélectionner une entité
 * modifier une entité
 * supprimer une entité
-* sélectionner une entité
 
 ### Extension
 

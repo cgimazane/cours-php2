@@ -10,9 +10,9 @@ Un objet c'est :
 * une liste de fonctions
 * une instance de classe
 
-Exemple :
+#### Exemple
 
-Mon objet $worker est basé sur la classe Person.
+Mon objet `$worker` est basé sur la classe `Person`.
 
 ```php
 $worker = new Person();
@@ -28,20 +28,21 @@ Elle implémente les variables et fonctions utilisées par l'objet
 
 * UNE seule classe par fichier php
 * Même nom pour la classe et le fichier
-* Majuscule au début du nom de classe
+* Majuscule au début du nom de classe (StudlyCaps)
 * "Une classe, un rôle"
 
-Exemple :
+#### Exemple
 
-Ma classe Person (sauvée dans `Person.php`)
+Ma classe `Person` (sauvée dans `Person.php`)
 
 ```php
-class Person {
+class Person
+{
+    public $name;
 
-  public $name;
-
-  public function do($task) {
-    //code
+    public function do($task) {
+        //code
+    }
 }
 ```
 
@@ -65,12 +66,12 @@ De plus, `$this` est une référence à l'objet appelant
 
 ### Méthodes
 
-2 types de fonctions :
+2 types principaux de fonctions :
 
-* getters et setters : pour lire et MaJ les attributs
+* getters et setters : pour lire et mettre à jour les attributs
 * éxecuter d'autres actions plus complexes
 
-### Autres fonctions (magiques)
+### Autres fonctions ("magiques")
 
 * `__construct()` : appelé pour créer l'objet
 * `__destruct()` : appelé pour détruire l'objet
@@ -82,14 +83,15 @@ Il est possible de créer une classe fille spécifiant la classe parent
 
 La classe fille sera basée sur la classe mère :
 
-* elle aura toutes les fonctions de la classe mère
+* elle aura toutes les propriétés/fonctions de la classe mère
 * elle aura d'autres attributs/méthodes
 
 ```php
-class Boss extends Person {
-
+class Boss extends Person
+{
 	public function assignTask($person){
 
+    }
 }
 ```
 

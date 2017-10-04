@@ -54,8 +54,6 @@
 
 # Conclusion
 
-## Situation
-
 Il est primordial d'analyser proprement le projet qui est à réaliser (au besoin de communiquer avec le commanditaire)
 
 Les nombreux frameworks existant proposent une variété très large d'applications
