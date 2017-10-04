@@ -7,6 +7,6 @@
 ## Objectifs
 
 * Avec les propriétés adéquates
-* Ajouter getters/setters
+* Création de quelques getters/setters
 
 [Retour au cours](../cours.md)

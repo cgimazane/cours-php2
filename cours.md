@@ -54,4 +54,16 @@
 
 # Conclusion
 
-[fin](5/fin.md)
+## Situation
+
+Il est primordial d'analyser proprement le projet qui est à réaliser (au besoin de communiquer avec le commanditaire)
+
+Les nombreux frameworks existant proposent une variété très large d'applications
+
+Internet est votre meilleur ami si vous savez vous servir de Google : une recherche pertinente fait gagner beaucoup de temps
+
+opérateur | action
+--- | ---
+" " | recherche d'une expression exacte
+- | exclusion d'un terme
+site:nomdusite.fr | rechercher les pages web du site nomdusite.fr
