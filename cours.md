@@ -63,5 +63,5 @@ Internet est votre meilleur ami si vous savez vous servir de Google : une recher
 opérateur | action
 --- | ---
 " " | recherche d'une expression exacte
-- | exclusion d'un terme
-site:nomdusite.fr | rechercher les pages web du site nomdusite.fr
+ - | exclusion d'un terme
+ site:nomdusite.fr | rechercher les pages web du site nomdusite.fr
