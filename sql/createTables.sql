@@ -21,7 +21,6 @@ CREATE TABLE person (
 CREATE TABLE tool (
 	id SERIAL,
 	name VARCHAR (150),
-	available BOOLEAN DEFAULT TRUE,
 	PRIMARY KEY(id)
 );
 

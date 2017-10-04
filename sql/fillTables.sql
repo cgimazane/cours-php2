@@ -10,9 +10,9 @@ INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tartine','Kimbe
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Hervitemonslip','Jean-Philippe','m','1989-05-03');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bolizan','Anna','f','2000-02-29');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Javel','Aude','f','1965-07-04');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Honnette','Marie','f','1960-04-02');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Menvussa','Gérard','m','1956-07-24');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bambel','Larry','m','2014-04-04');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Honnette','Camille','f','1960-04-02');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Mensoif','Gérard','m','1956-07-24');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bambel','Henry','m','2014-04-04');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Clette','Lara','f','1998-07-12');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Adhémar','m','1978-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Talu','Jean','m','1902-10-26');
@@ -27,7 +27,6 @@ INSERT INTO tool (name) VALUES ('couteau');
 INSERT INTO tool (name) VALUES ('téléphone');
 INSERT INTO tool (name) VALUES ('ordinateur');
 INSERT INTO tool (name) VALUES ('marteau-piqueur');
-INSERT INTO tool (name) VALUES ('pinceau');
 INSERT INTO tool (name) VALUES ('tournevis');
 INSERT INTO tool (name) VALUES ('chariot élévateur');
 INSERT INTO tool (name) VALUES ('plastifieuse');
@@ -36,6 +35,7 @@ INSERT INTO tool (name) VALUES ('tablette tactile');
 INSERT INTO tool (name) VALUES ('vidéoprojecteur');
 INSERT INTO tool (name) VALUES ('trépied');
 INSERT INTO tool (name) VALUES ('échafaudage');
+INSERT INTO tool (name) VALUES ('pinceau');
 
 --task
 INSERT INTO task (name , completion_rate, person_id, inconvenient, comment) VALUES ('répondre au courrier', 100, 5, false, 'ne pas utiliser l''ordinateur');
