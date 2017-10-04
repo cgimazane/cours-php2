@@ -4,19 +4,19 @@ INSERT INTO article (title, content, publication_date) VALUES ('Repas', 'La dire
 INSERT INTO article (title, content, publication_date) VALUES ('Fermeture des locaux', E'Les locaux de l\'entreprise seront fermés du 24/12 au 02/01', '2017-10-07');
 
 --person
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tenrien','Jean','m','1991-12-26');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Houarien','Yves','m','2002-02-09');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Tartine','Kimberley','f','1992-12-12');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Neymar','Jean','m','1991-12-26');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Egée','Yves','m','2002-02-09');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Biscotte','Kimberley','f','1992-12-12');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Hervitemonslip','Jean-Philippe','m','1989-05-03');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bolizan','Anna','f','2000-02-29');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Javel','Aude','f','1965-07-04');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Durine','Anna-Lise','f','2000-02-29');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Hissé','Aude','f','1965-07-04');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Honnette','Camille','f','1960-04-02');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Mensoif','Gérard','m','1956-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Bambel','Henry','m','2014-04-04');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Clette','Lara','f','1998-07-12');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Adhémar','m','1978-07-24');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Terrieur','Alain','m','1978-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Talu','Jean','m','1902-10-26');
-INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Patamob','Alphonse','m','1956-07-24');
+INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Terrieur','Alex','m','1956-07-24');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Hassain','Marc','m','1972-10-26');
 INSERT INTO person (lastname,firstname,gender,birthday) VALUES ('Culaire','Laurie','f','1982-10-28');
 
