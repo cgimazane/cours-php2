@@ -15,11 +15,9 @@ Il sera composé de :
 
 # Ergonomie
 
-## Couleur
-
 Le site devra être très facile à prendre en main et le plus intuitif possible : les décideurs ne veulent pas perdre de temps en formation, une documentation approfondie leur suffira.
 
-![logo](logo.png)
+## Couleur
 
 couleur | hexa
 --- | ---
@@ -28,19 +26,24 @@ secondaire | #07889b
 tertiaire | #66b9bf
 supplémentaire | #eeaa7b
 
+## Logo
+
+![logo](logo.png)
+
 # Plan du site
 
 ![arborescence](arborescence.png)
 
 # Contexte
 
-Dans l'entreprise _Ben & Fils_, chacun des employés libres se voit affecter une tâche ainsi que des outils nécessaires pour la réalisation de cette tâche.
+Dans l'entreprise _Ben & Fils_, dès qu'un employé est libre (pas occupé à faire une tâche), il peut se voir affecter une tâche.
+On lui donnera lies informations ainsi que des outils nécessaires pour la réalisation de cette tâche.
 
 # Description fonctionnelle
 
 Sur toutes les pages, doivent être présents :
 
-* le menu
+* le menu permettant de naviguer entre les 3 rubriques et pouvant ramener à l'accueil
 * le logo ainsi que le nom de l'entreprise
 
 ## Accueil
@@ -85,5 +88,4 @@ Une vue détaillée de l'outil
 
 # Contraintes
 
-* Un menu permettant de naviguer entre toutes les pages de niveau 2 et pouvant ramener à l'accueil
 * Fonctionnement OK sous IE > 8, Chrome > 20, Firefox > 4, Opera > 10, Safari > 6

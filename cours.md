@@ -60,8 +60,8 @@ Les nombreux frameworks existant proposent une variété très large d'applicati
 
 Internet est votre meilleur ami si vous savez vous servir de Google : une recherche pertinente fait gagner beaucoup de temps
 
-opérateur | action
---- | ---
-" " | recherche d'une expression exacte
- - | exclusion d'un terme
- site:nomdusite.fr | rechercher les pages web du site nomdusite.fr
+| opérateur | action |
+| --- | --- |
+| " " | recherche d'une expression exacte |
+| - | exclusion d'un terme |
+| site:nomdusite.fr | rechercher les pages web du site nomdusite.fr |
