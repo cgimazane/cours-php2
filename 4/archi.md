@@ -12,7 +12,7 @@
   2. une vue (présentation, interface utilisateur) ;
   3. un contrôleur (logique de contrôle, gestion des événements, synchronisation).
 * cadre normalisé
-* facilitation de communication entre developpeurs
+* facilitation de communication entre développeurs
 
 ### Flux de traitement
 

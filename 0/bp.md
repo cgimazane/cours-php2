@@ -44,6 +44,8 @@ Ne pas réinventer la roue (carrée)
 
 Never Trust User Input
 
+Divide and Conquer
+
 ### Citations
 
 * The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.

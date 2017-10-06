@@ -83,3 +83,12 @@ Internet est votre meilleur ami si vous savez vous servir de Google : une recher
 | " " | recherche d'une expression exacte |
 | - | exclusion d'un terme |
 | site:nomdusite.fr | rechercher les pages web du site nomdusite.fr |
+
+## Brancher le code
+
+Possibilité de travailler sur plusieurs branches en parallèle puis une fois le travail effectué, on fusionne les développements.
+Il faut évidemment un logiciel de gestion de version
+
+#### Exemple
+
+Git
