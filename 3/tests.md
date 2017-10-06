@@ -25,7 +25,7 @@ On va généralement tester par classe
 
 ### Autres possibilités
 
-On peut également scanner le code pour respecter les différentes PSR qui nous intéressent
+On peut également scanner le code pour respecter les différentes PSR qui nous intéressent.
 
 #### Exemple
 
@@ -52,7 +52,7 @@ class MaClasseTest extends TestCase
 
 Procédure qui va évaluer la conformité par rapport aux exigences demandées
 
-On va simplement vérifier qu'une action sur le site se déroule comme attendu (simulation de clic ou de soumission de formulaire) ou que le site contient certains éléments de texte aux endroits attendus
+On va simplement vérifier qu'une action sur le site se déroule comme attendu (simulation de clic ou de soumission de formulaire) ou que le site contient certains éléments de texte aux endroits attendus par exemple.
 
 ### Autres possibilités
 

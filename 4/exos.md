@@ -11,5 +11,6 @@
     * Création des CRUDControllers
     * Création de la page de base
     * Création de la page d'accueil
+    * Création des tests
 
 [Retour au cours](../cours.md)

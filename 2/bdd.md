@@ -70,6 +70,23 @@ CRUD (Create, Read, Update, Delete)
 
 ### Extension
 
-possibilité de créer un "abstract manager"
+Ici on peut par exemple créer un AbstractManager (classe mère abstraite).
+
+```php
+class AbstractManager
+{
+	public function create(){
+
+    }
+}
+
+class PersonManager extends AbstractManager
+{
+	public function create(){
+        $sql = 'INSERT INTO...'
+    }
+}
+```
+
 
 [Retour au cours](../cours.md)

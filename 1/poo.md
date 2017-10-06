@@ -98,6 +98,7 @@ class Boss extends Person
 ### Abstraction
 
 Les classes `abstraites` ne peuvent pas être instanciées, et toute classe contenant au moins une méthode abstraite doit elle-aussi être abstraite.
+On peut par exemple s'en servir pour implémenter un classe mère qui ne sera jamais instanciée.
 
 #### Mot-clé
 
