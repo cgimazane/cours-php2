@@ -86,11 +86,11 @@ On propose à l'utilisateur de fournir des données/informations
 
 ## lib
 
-/ | php
---- | --- | ---
-descripteur de projet | composer.json
-dépot central | Packagist
-utilitaire |composer
+| / | php |
+| --- | --- |
+| descripteur de projet | composer.json |
+| dépot central | Packagist |
+| utilitaire | composer |
 
 # Rappels
 
