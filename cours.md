@@ -54,7 +54,25 @@
 
 # Conclusion
 
-Il est primordial d'analyser proprement le projet qui est à réaliser (au besoin de communiquer avec le commanditaire)
+## Développement agile
+
+Création de la *méthode agile* pour éviter "l'effet tunnel" qui naissait lorsque le développeur travaillait dans son coin sans montrer son travail au commanditaire : le travail ne correspond pas vraiment à l'attente du client.
+
+On en retire 4 adages :
+
+* **Les individus et leurs interactions** plus que les processus et les outils
+* **Des logiciels opérationnels** plus qu’une documentation exhaustive
+* **La collaboration avec les clients** plus que la négociation contractuel
+* **L’adaptation au changement** plus que le suivi d’un plan
+
+#### Exemples
+
+* scrum
+* xp
+
+## Idées générales
+
+Il est primordial d'analyser proprement le projet qui est à réaliser (au besoin de communiquer avec le commanditaire) afin de répondre le plus possible aux attentes
 
 Les nombreux frameworks existant proposent une variété très large d'applications
 
