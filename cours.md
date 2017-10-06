@@ -54,7 +54,7 @@
 
 # Conclusion
 
-## Développement agile
+## Développement agile
 
 Création de la *méthode agile* pour éviter "l'effet tunnel" qui naissait lorsque le développeur travaillait dans son coin sans montrer son travail au commanditaire : le travail ne correspond pas vraiment à l'attente du client.
 
