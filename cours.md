@@ -70,7 +70,7 @@ On en retire 4 adages :
 * scrum
 * xp
 
-## Idées générales
+## Idées générales
 
 Il est primordial d'analyser proprement le projet qui est à réaliser (au besoin de communiquer avec le commanditaire) afin de répondre le plus possible aux attentes
 
