@@ -54,26 +54,6 @@
 
 # Conclusion
 
-## Développement agile
-
-Création de la *méthode agile* pour éviter "l'effet tunnel" qui naissait lorsque le développeur travaillait dans son coin sans montrer son travail au commanditaire : le travail ne correspond pas vraiment à l'attente du client.
-
-On en retire 4 adages :
-
-* **Les individus et leurs interactions** plus que les processus et les outils
-* **Des logiciels opérationnels** plus qu’une documentation exhaustive
-* **La collaboration avec les clients** plus que la négociation contractuel
-* **L’adaptation au changement** plus que le suivi d’un plan
-
-### Méthode
-
-Développement itératif, incrémental et adaptatif
-
-#### Exemples
-
-* scrum
-* xp
-
 ## Idées générales
 
 Il est primordial d'analyser proprement le projet qui est à réaliser (au besoin de communiquer avec le commanditaire) afin de répondre le plus possible aux attentes
@@ -87,12 +67,3 @@ Internet est votre meilleur ami si vous savez vous servir de Google : une recher
 | " " | recherche d'une expression exacte |
 | - | exclusion d'un terme |
 | site:nomdusite.fr | rechercher les pages web du site nomdusite.fr |
-
-## Brancher le code
-
-Possibilité de travailler sur plusieurs branches en parallèle puis une fois le travail effectué, on fusionne les développements.
-Il faut évidemment un logiciel de gestion de version
-
-#### Exemple
-
-* Git
