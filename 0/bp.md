@@ -4,11 +4,11 @@
 
 ## PHP Standards Recommendations
 
-PSR
+PSR : Standardisation des concepts de programmation en php
 
 http://www.php-fig.org/psr/
 
-## Règles de développement
+## "Règles" de développement
 
 Les acronymes sont des principes de développement.
 
@@ -89,6 +89,16 @@ Développement itératif, incrémental et adaptatif
 
 * scrum
 * xp
+
+### Gestion de projet
+
+On peut trouver de nombreux outils de gestion de projet afin de pouvoir planifier proprement et sur le long terme les différentes tâches (des "tickets") à remplir pour mener le projet à son terme.
+
+#### Exemples
+
+* Redmine
+* Jira
+
 
 ## Autres conseils
 
