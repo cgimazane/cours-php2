@@ -65,6 +65,10 @@ On en retire 4 adages :
 * **La collaboration avec les clients** plus que la négociation contractuel
 * **L’adaptation au changement** plus que le suivi d’un plan
 
+### Méthode
+
+Développement itératif, incrémental et adaptatif
+
 #### Exemples
 
 * scrum
@@ -84,11 +88,11 @@ Internet est votre meilleur ami si vous savez vous servir de Google : une recher
 | - | exclusion d'un terme |
 | site:nomdusite.fr | rechercher les pages web du site nomdusite.fr |
 
-## Brancher le code
+## Brancher le code
 
 Possibilité de travailler sur plusieurs branches en parallèle puis une fois le travail effectué, on fusionne les développements.
 Il faut évidemment un logiciel de gestion de version
 
 #### Exemple
 
-Git
+* Git

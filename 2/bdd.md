@@ -9,13 +9,8 @@ PDO : Php Data Objects
 ### Création
 
 ```php
-try {
-  $strConnection = 'pgsql:host=localhost;dbname=php1';
+  $strConnection = 'pgsql:host=localhost;dbname=php2';
   $db = new PDO($strConnection, user, password);
-}catch(PDOException $e) {
-  $msg = 'ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage();
-  die($msg);
-}
 ```
 
 ### Utilisation
@@ -54,8 +49,10 @@ Principe : fournir des données correspondant à ses attributs pour qu'il assign
 
 Etat actuel :
 
+* classe Article : pour représenter une ligne de la table article de la BDD
 * classe Person : pour représenter une ligne de la table person de la BDD
 * classe Task : pour représenter une ligne de la table task de la BDD
+* classe Tool : pour représenter une ligne de la table tool de la BDD
 
 Rien ne nous permet de gérer les différentes tables de la BDD (add, delete ...)
 
@@ -80,6 +77,7 @@ class AbstractManager
     }
 }
 
+
 class PersonManager extends AbstractManager
 {
 	public function create(){
@@ -87,6 +85,5 @@ class PersonManager extends AbstractManager
     }
 }
 ```
-
 
 [Retour au cours](../cours.md)

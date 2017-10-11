@@ -84,7 +84,7 @@ Il est possible de créer une classe fille spécifiant la classe parent
 La classe fille sera basée sur la classe mère :
 
 * elle aura toutes les propriétés/fonctions de la classe mère
-* elle aura d'autres attributs/méthodes
+* elle pourra avoir d'autres attributs/méthodes
 
 ```php
 class Boss extends Person
