@@ -11,7 +11,7 @@ Les commanditaires insistent sur la robustesse du système.
 Il sera composé de :
 * Une base de données contenant les données
 * Une interface de consultation de ces données selon différents critères
-* Un système de gestion d'articles
+* Un système de gestion d'articles permettant de tenir informé le personnel des différentes activités de l'entreprise
 
 # Ergonomie
 
