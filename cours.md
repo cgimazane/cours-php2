@@ -60,6 +60,10 @@ Il est primordial d'analyser proprement le projet qui est à réaliser (au besoi
 
 Les nombreux frameworks existant proposent une variété très large d'applications
 
+Prendre un certain d'analyse est plus que nécessaire et la planification des tâches est primordiale
+
+### Rechercher sur internet
+
 Internet est votre meilleur ami si vous savez vous servir de Google : une recherche pertinente fait gagner beaucoup de temps
 
 | opérateur | action |
@@ -67,3 +71,5 @@ Internet est votre meilleur ami si vous savez vous servir de Google : une recher
 | " " | recherche d'une expression exacte |
 | - | exclusion d'un terme |
 | site:nomdusite.fr | rechercher les pages web du site nomdusite.fr |
+
+Les recherches ont plus de chances d'être fructueuses si elles sont faites en anglais.
