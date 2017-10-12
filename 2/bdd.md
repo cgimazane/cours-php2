@@ -45,11 +45,11 @@ $allResults = $prep->fetchAll();
 
 ### Etat actuel de nos développements
 
-* classe Person : pour représenter une ligne de la table person de la BDD
-* classe Task : pour représenter une ligne de la table task de la BDD
+* classe `Person` : pour représenter une ligne de la table person de la BDD
+* classe `Task` : pour représenter une ligne de la table task de la BDD
 
-* classe Article : pour représenter une ligne de la table article de la BDD
-* classe Tool : pour représenter une ligne de la table tool de la BDD
+* classe `Article` : pour représenter une ligne de la table article de la BDD
+* classe `Tool` : pour représenter une ligne de la table tool de la BDD
 
 Rien ne nous permet de gérer ou de récupérer les données des différentes tables de la BDD (add, delete ...)
 
