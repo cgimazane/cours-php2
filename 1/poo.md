@@ -29,7 +29,7 @@ Elle implémente les variables et fonctions utilisées par l'objet
 * UNE seule classe par fichier php
 * Même nom pour la classe et le fichier
 * Majuscule au début du nom de classe (StudlyCaps)
-* "Une classe, un rôle"
+* "Une classe, un rôle" => c'est le S de SOLID
 
 #### Exemple
 
