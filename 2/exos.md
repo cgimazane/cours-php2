@@ -6,6 +6,6 @@
 
 # Exercices
 
-Création d'une nouvelle classe pour gérer les entités Person issues de la BDD
+* Création d'une nouvelle classe pour gérer les entités Person issues de la BDD
 
 [Retour au cours](../cours.md)
