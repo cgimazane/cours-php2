@@ -10,9 +10,9 @@
 
 ## Tests unitaires
 
-Procédure qui va vérifier qu'une partie (unité) du code source a le fonctionnement attendu
+Procédure qui va vérifier qu'une partie (unité) du code source a le fonctionnement attendu.
 
-On va généralement tester par classe
+On va généralement tester classe par classe.
 
 ### Utilité
 
@@ -22,10 +22,6 @@ On va généralement tester par classe
 * Combattre les régressions
 * Sécuriser la maintenance
 * Documenter le code
-
-### Autres possibilités
-
-On peut également scanner le code pour respecter les différentes PSR qui nous intéressent.
 
 #### Exemple
 
@@ -48,9 +44,13 @@ class MaClasseTest extends TestCase
 
 ```
 
+### Autres possibilités
+
+On peut également scanner le code pour respecter les différentes PSR qui nous intéressent.
+
 ## Tests fonctionnels
 
-Procédure qui va évaluer la conformité par rapport aux exigences demandées
+Procédure qui va évaluer la conformité par rapport aux exigences demandées par le commanditaire ou le cahier des charges.
 
 On va simplement vérifier qu'une action sur le site se déroule comme attendu (simulation de clic ou de soumission de formulaire) ou que le site contient certains éléments de texte aux endroits attendus par exemple.
 

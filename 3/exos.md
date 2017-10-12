@@ -6,6 +6,6 @@
 
 ## Objectifs
 
-* Utilisation de PHPUnit => test de notre PersonManager
+* Utilisation de PHPUnit => test (unitaire) d'une de nos fonctionnalités
 
 [Retour au cours](../cours.md)

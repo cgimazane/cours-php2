@@ -11,7 +11,7 @@ Les commanditaires insistent sur la robustesse du système.
 Il sera composé de :
 * Une base de données contenant les données
 * Une interface de consultation de ces données selon différents critères
-* Un système de gestion d'articles permettant de tenir informé le personnel des différentes activités de l'entreprise
+* Un système de gestion d'articles de type blog permettant de tenir informé le personnel des différentes activités récentes de l'entreprise
 
 # Ergonomie
 
@@ -49,7 +49,7 @@ Sur toutes les pages, doivent être présents :
 ## Accueil
 
 * Accès rapide aux 3 rubriques différentes
-* Affichage des 2 **articles** *les plus récents* type blog en première page
+* Affichage des 2 **articles** *les plus récents* en première page
 
 ## L'équipe
 
