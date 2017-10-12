@@ -10,19 +10,21 @@ http://www.php-fig.org/psr/
 
 ## "Règles" de développement
 
-Les acronymes sont des principes de développement.
+Ce ne sont pas des règles à respecter sans condition, ce sont simplement des lignes directrices nés de nombreuses années de développement.
+
+Les acronymes sont des principes de développement plus ou moins ancrés : ce sont des "conseils" dont il faut grandement s'inspirer.
 
 ### Acronymes
 
 #### SOLID
 
-Initiale | Signification | Définition
---- | --- | ---
-S | Single Responsibility Principle | A class should have only a single responsibility
-O | Open/closed principle (Ouvert/fermé) | Classes, methods should be open for extension, but closed for modifications.
-L | Liskov substitution Principle | Subtypes must be substituable for their base types.
-I | Interface Segregation Principle | Many client-specific interfaces are better than one general-purpose interface.
-D | Dependency Inversion Principle | "depend upon abstractions, [not] concretions"
+| Initiale | Signification | Définition |
+| --- | --- | --- |
+| S | Single Responsibility Principle | A class should have only a single responsibility. |
+| O | Open/closed principle (Ouvert/fermé) | Classes, methods should be open for extension, but closed for modifications. |
+| L | Liskov substitution Principle | Subtypes must be substituable for their base types. |
+| I | Interface Segregation Principle | Many client-specific interfaces are better than one general-purpose interface. |
+| D | Dependency Inversion Principle | "depend upon abstractions, [not] concretions". |
 
 #### KISS
 
@@ -101,7 +103,7 @@ On peut trouver de nombreux outils de gestion de projet afin de pouvoir planifie
 * Redmine
 * Jira
 
-Certains logiciels de gestion de version intègrent directement une fonctionnalité de gestion de tickets (exemple : gitlab) 
+Certains logiciels de gestion de version intègrent directement une fonctionnalité de gestion de tickets (exemple : gitlab)
 
 ## Autres conseils
 

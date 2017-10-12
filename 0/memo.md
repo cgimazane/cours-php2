@@ -113,7 +113,7 @@ On propose à l'utilisateur de fournir des données/informations
 
 # Liens utiles
 
-Il existe beaucoup de cheatsheets listant de nombreux attributs, balises ou styles ...
+Il existe beaucoup de cheatsheets listant de nombreux attributs, balises, styles, fonctions ou différentes exmples d'utilisation dans des cas concrets ...
 
 Sinon y'a StackOverflow
 
