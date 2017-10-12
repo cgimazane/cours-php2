@@ -51,7 +51,7 @@ D | Dependency Inversion Principle | "depend upon abstractions, [not] concretion
 ### Citations
 
 * The bearing of a child takes nine months, no matter how many women are assigned. Many software tasks have this characteristic because of the sequential nature of debugging.
-  * souvent référeé comme "Nine women can’t make a baby in a month."
+    * souvent référeé comme "Nine women can’t make a baby in a month."
 
 * One of my most productive days was throwing away 1000 lines of code.
 

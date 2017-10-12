@@ -9,8 +9,8 @@ PDO : Php Data Objects
 ### Création
 
 ```php
-  $strConnection = 'pgsql:host=localhost;dbname=php2';
-  $db = new PDO($strConnection, user, password);
+    $strConnection = 'pgsql:host=localhost;dbname=php2';
+    $db = new PDO($strConnection, user, password);
 ```
 
 ### Utilisation
@@ -81,22 +81,22 @@ class AbstractManager
 {
 	public function find(){
 
-    }
+        }
 }
 
 
 class PersonManager extends AbstractManager
 {
 	public function find(){
-        //do something
-    }
+                //do something
+        }
 }
 
 class TaskManager extends AbstractManager
 {
 	public function find(){
-        //do something else
-    }
+                //do something else
+        }
 }
 ```
 

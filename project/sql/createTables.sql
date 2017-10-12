@@ -2,7 +2,7 @@
 CREATE TABLE article (
 	id SERIAL,
 	title VARCHAR (50),
-    content TEXT,
+        content TEXT,
 	publication_date timestamp,
 	PRIMARY KEY(id)
 );
@@ -28,9 +28,9 @@ CREATE TABLE tool (
 CREATE TABLE task (
 	id SERIAL,
 	name VARCHAR (150),
-    inconvenient BOOLEAN DEFAULT TRUE,
+        inconvenient BOOLEAN DEFAULT TRUE,
 	completion_rate INTEGER,
-    comment TEXT,
+        comment TEXT,
 	person_id int,
 	PRIMARY KEY(id),
 	FOREIGN KEY (person_id) REFERENCES person(id)

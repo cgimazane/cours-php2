@@ -40,11 +40,11 @@ namespace MonProjet\Entity;
 
 class Person
 {
-    public $name;
+        public $name;
 
-    public function do($task) {
-        //code
-    }
+        public function do($task) {
+                //code
+        }
 }
 ```
 
@@ -95,7 +95,7 @@ class Boss extends Person
 {
 	public function assignTask($person){
 
-    }
+        }
 }
 ```
 
@@ -115,20 +115,20 @@ namespace MonProjet\Entity;
 
 abstract class Vehicle
 {
-    public $type;
+        public $type;
 
-    public function getSeatedPassengers($task) {
-        //code
-    }
+        public function getSeatedPassengers($task) {
+                //code
+        }
 }
 
 /* -------------------- EOF -------------------- */
 
 class Plane extends Vehicle {
 
-    public $type;
+        public $type;
 
-    public $company;
+        public $company;
 }
 
 ```

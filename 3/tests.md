@@ -34,12 +34,12 @@ use MonProjet\Entity\MaClasse;
 
 class MaClasseTest extends TestCase
 {
-    public function testMaFonction()
-    {
-        $monObjet = new MaClasse();
-        $resultat = $monObjet->maFonction();
-        $this->assertEquals($resultatAttendu, $resultat);
-    }
+        public function testMaFonction()
+        {
+                $monObjet = new MaClasse();
+                $resultat = $monObjet->maFonction();
+                $this->assertEquals($resultatAttendu, $resultat);
+        }
 }
 
 ```
