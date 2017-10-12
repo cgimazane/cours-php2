@@ -16,24 +16,33 @@
 
 ### Flux de traitement
 
-1. Envoi de la requete par la vue au contrôleur
-2. Analyse de la requete par le contrôleur
-3. Requete du contrôleur au modèle concerné pour faire les traitements
-4. Notification de la vue que la requete est traitée
-5. Envoi de la requete de la mise à jour par la vue notifiée au modèle
+1. Envoi de la requête par la vue au contrôleur
+2. Analyse de la requête par le contrôleur
+3. Requête du contrôleur au modèle concerné pour faire les traitements
+4. Notification de la vue que la requête est traitée
+5. Envoi de la requête de la mise à jour par la vue notifiée au modèle
 
-## Frameworks
+#### Dessin
 
-### C'est quoi ?
+## Autres architectures
+
+* Architecture 3-tiers
+* Présentation/abstraction/contrôle
+* ...
+
+# Frameworks
+
+## C'est quoi ?
 
 * Une multitude d'outils mis à disposition pour
   - gagner du temps
   - écrire moins de code
   - limiter les erreurs
-  - accroitre la productivité
+  - accroître la productivité
 * Une méthodologie
   - définition d'une approche structurée
-  - maitrise de l'architecture
+  - maîtrise de l'architecture
+* Une documentation détaillée
 * Une communauté
 
 ### Pourquoi le framework ?
@@ -41,10 +50,10 @@
 * outils déjà existants
 * évolutivité
 * maintenabilité
-* cout faible
-* interopérabilité avec les standrads du marché
+* coût faible
+* interopérabilité avec les standards du marché
 
-### comment choisir ?
+### Comment choisir ?
 
 * Durabilité
 * Support
@@ -91,7 +100,7 @@ _NB : ne pas confondre avec une GED_
 
 * Spécificité/généricité des besoins
 * Existence de framework
-* Maitrise du framework
+* Maîtrise du framework
 * Mise à niveau des développements
 
 [Retour au cours](../cours.md)

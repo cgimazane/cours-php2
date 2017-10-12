@@ -40,7 +40,7 @@ h1 {
 
 ## js
 
-C'est l'__animation__ du document (interprété par le navigateur)
+C'est l'__animation__ du document (interprété par le navigateur) : dessin, cartographie...
 
 On gère les __événements__ grâce aux différentes __fonctions__ définies préalablement...
 
@@ -48,7 +48,7 @@ On gère les __événements__ grâce aux différentes __fonctions__ définies pr
 <button onclick="maSuperAlerte()">Mon bouton</button>
 <script>
 function maSuperAlerte() {
-  alert('What a magnifique boite de dialogue...');
+  alert('attention...');
 }
 </script>
 ```

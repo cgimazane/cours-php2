@@ -43,7 +43,9 @@ $allResults = $prep->fetchAll();
 
 ## Hydratation des objets
 
-Principe : fournir des données correspondant à ses attributs pour qu'il assigne les valeurs souhaitées à ces derniers.
+### Principe
+
+Fournir des données correspondant à ses attributs pour qu'il assigne les valeurs souhaitées à ces derniers.
 
 ## Gestion de la BDD
 
@@ -67,12 +69,12 @@ CRUD (Create, Read, Update, Delete)
 
 ### Extension
 
-Ici on peut par exemple créer un AbstractManager (classe mère abstraite).
+Ici on pourrait par exemple créer un AbstractManager (classe mère abstraite).
 
 ```php
 class AbstractManager
 {
-	public function create(){
+	public function find(){
 
     }
 }
@@ -80,8 +82,15 @@ class AbstractManager
 
 class PersonManager extends AbstractManager
 {
-	public function create(){
-        $sql = 'INSERT INTO...'
+	public function find(){
+        //do something
+    }
+}
+
+class TaskManager extends AbstractManager
+{
+	public function find(){
+        //do something else
     }
 }
 ```

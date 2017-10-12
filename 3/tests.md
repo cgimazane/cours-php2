@@ -58,6 +58,7 @@ On va simplement vérifier qu'une action sur le site se déroule comme attendu (
 
 * Tests de performance
 * Tests de charge
+* Tests de réseau
 * Tests de conformité
 
 [Retour au cours](../cours.md)

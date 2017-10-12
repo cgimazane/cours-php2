@@ -99,7 +99,6 @@ On peut trouver de nombreux outils de gestion de projet afin de pouvoir planifie
 * Redmine
 * Jira
 
-
 ## Autres conseils
 
 * Backup fréquent
