@@ -26,25 +26,27 @@ D | Dependency Inversion Principle | "depend upon abstractions, [not] concretion
 
 #### KISS
 
-**K**eep **I**t **S**imple, **S**tupid
+* **K**eep **I**t **S**imple, **S**tupid
 
 #### YAGNI
 
-**Y**ou **A**ren’t **G**onna **N**eed It
+* **Y**ou **A**ren’t **G**onna **N**eed It
 
 #### DRY
 
-**D**on't **R**epeat **Y**ourself
-aka
-**D**uplication **I**s **E**vil
+* **D**on't **R**epeat **Y**ourself
+
+également trouvé sous la forme
+
+* **D**uplication **I**s **E**vil (DIE)
 
 ### Proverbes
 
-Ne pas réinventer la roue (carrée)
+* Ne pas réinventer la roue (carrée)
 
-Never Trust User Input
+* Never Trust User Input
 
-Divide and Conquer
+* Divide and Conquer
 
 ### Citations
 
@@ -64,7 +66,7 @@ Divide and Conquer
 ## Brancher le code
 
 Possibilité de travailler sur plusieurs branches en parallèle puis une fois le travail effectué, on fusionne les développements.
-Il faut évidemment un logiciel de gestion de version
+Il faut évidemment un logiciel de gestion de version.
 
 #### Exemple
 
@@ -72,7 +74,7 @@ Il faut évidemment un logiciel de gestion de version
 
 ## Développement agile
 
-Création de la *méthode agile* pour éviter "l'effet tunnel" qui naissait lorsque le développeur travaillait dans son coin sans montrer son travail au commanditaire : le travail ne correspond pas vraiment à l'attente du client.
+Création de la *méthode agile* pour éviter "l'effet tunnel" qui naissait lorsque le développeur travaillait dans son coin sans communiquer avec son commanditaire : le travail ne correspond finalement pas vraiment à l'attente du client.
 
 On en retire 4 adages :
 
@@ -83,7 +85,7 @@ On en retire 4 adages :
 
 ### Méthode
 
-Développement itératif, incrémental et adaptatif
+Développement itératif, incrémental et adaptatif.
 
 #### Exemples
 
@@ -92,12 +94,14 @@ Développement itératif, incrémental et adaptatif
 
 ### Gestion de projet
 
-On peut trouver de nombreux outils de gestion de projet afin de pouvoir planifier proprement et sur le long terme les différentes tâches (des "tickets") à remplir pour mener le projet à son terme.
+On peut trouver de nombreux outils de gestion de projet afin de pouvoir planifier proprement et sur le long terme les différentes tâches (des "tickets") à remplir pour mener le projet à son but.
 
 #### Exemples
 
 * Redmine
 * Jira
+
+Certains logiciels de gestion de version intègrent directement une fonctionnalité de gestion de tickets (exemple : gitlab) 
 
 ## Autres conseils
 

@@ -8,7 +8,7 @@ C'est le __contenu__ du document (interprété par le navigateur)
 
 On utilise des __balises__ écrites en *minuscules* : `<div id="menu"></div>` ou `<html lang="fr"></html>`
 
-Elle définissent un rôle, s'ouvrent et se ferment et ont des attributs (id, class, href ...) qui peuvent varier selon la balise.
+Elle définissent un rôle, s'ouvrent et se ferment et ont des attributs (`id`, `class`, `href` ...) qui peuvent varier selon la balise (valeur entre `"`).
 
 ```html
 <!doctype html>
@@ -32,9 +32,10 @@ On définit des __styles__ composés :
 * des règles écrites entre { } et terminées par un ;
 
 ```css
-h1 {
+h1 > span {
      font-family: Arial;
      color: #0f5;
+     border-left: 4px solid aquamarine;
 }
 ```
 
