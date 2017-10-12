@@ -9,8 +9,8 @@ PDO : Php Data Objects
 ### Création
 
 ```php
-    $strConnection = 'pgsql:host=localhost;dbname=php2';
-    $db = new PDO($strConnection, user, password);
+$strConnection = 'pgsql:host=localhost;dbname=php2';
+$db = new PDO($strConnection, user, password);
 ```
 
 ### Utilisation

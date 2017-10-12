@@ -6,13 +6,13 @@
 
 ### Définition
 
-* modèle destiné à répondre aux besoins des applications interactives
-* séparation des problématiques
+* Modèle destiné à répondre aux besoins des applications interactives
+* Séparation des problématiques
     1. un modèle (modèle de données) ;
     2. une vue (présentation, interface utilisateur) ;
     3. un contrôleur (logique de contrôle, gestion des événements, synchronisation).
-* cadre normalisé
-* facilitation de communication entre développeurs
+* Cadre normalisé
+* Facilitation de communication entre développeurs
 
 ### Flux de traitement
 
@@ -35,23 +35,23 @@
 ## C'est quoi ?
 
 * Une multitude d'outils mis à disposition pour
-    - gagner du temps
-    - écrire moins de code
-    - limiter les erreurs
-    - accroître la productivité
+    - Gagner du temps
+    - Ecrire moins de code
+    - Limiter les erreurs
+    - Accroître la productivité
 * Une méthodologie
-    - définition d'une approche structurée
-    - maîtrise de l'architecture
+    - Définition d'une approche structurée
+    - Maîtrise de l'architecture
 * Une documentation détaillée
 * Une communauté
 
 ### Pourquoi le framework ?
 
-* outils déjà existants
-* évolutivité
-* maintenabilité
-* coût faible
-* interopérabilité avec les standards du marché
+* Outils déjà existants
+* Evolutivité
+* Maintenabilité
+* Coût faible
+* Interopérabilité avec les standards du marché
 
 ### Comment choisir ?
 
@@ -78,12 +78,12 @@
 
 Content Management System
 
-* structure du contenu
-* hierarchisation des utilisateurs (rôles et droits)
-* chaîne de publication
-* accès multiple aux documents
-* séparation du fond et de la forme
-* versionnement
+* Structure du contenu
+* Hiérarchisation des utilisateurs (rôles et droits)
+* Chaîne de publication
+* Accès multiple aux documents
+* Séparation du fond et de la forme
+* Versionnement
 * ...
 
 _NB : ne pas confondre avec une GED_
@@ -99,7 +99,7 @@ _NB : ne pas confondre avec une GED_
 ### Choix
 
 * Spécificité/généricité des besoins
-* Existence de framework
+* Existence de frameworks
 * Maîtrise du framework
 * Mise à niveau des développements
 

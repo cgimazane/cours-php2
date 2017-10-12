@@ -45,7 +45,7 @@ C'est l'__animation__ du document (interprété par le navigateur) : dessin, car
 
 On gère les __événements__ grâce aux différentes __fonctions__ définies préalablement...
 
-```javascript
+```html
 <button onclick="maSuperAlerte()">Mon bouton</button>
 <script>
 function maSuperAlerte() {
