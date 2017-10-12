@@ -12,7 +12,7 @@
     * Création de la page de base
     * Création de la page d'accueil
     * Création des tests
-    * Réqlisation du site
+    * Réalisation du site
     * Ajout de FOSUserBundle
 
 [Retour au cours](../cours.md)
