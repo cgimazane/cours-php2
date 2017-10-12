@@ -29,13 +29,15 @@ Elle implémente les variables et fonctions utilisées par l'objet
 * UNE seule classe par fichier php
 * Même nom pour la classe et le fichier
 * Majuscule au début du nom de classe (StudlyCaps)
-* "Une classe, un rôle" => c'est le S de SOLID
+* "Une classe, un rôle" (c'est le S de SOLID)
 
 #### Exemple
 
 Ma classe `Person` (sauvée dans `Person.php`)
 
 ```php
+namespace MonProjet\Entity;
+
 class Person
 {
     public $name;
@@ -87,6 +89,8 @@ La classe fille sera basée sur la classe mère :
 * elle pourra avoir d'autres attributs/méthodes
 
 ```php
+namespace MonProjet\Entity;
+
 class Boss extends Person
 {
 	public function assignTask($person){
@@ -103,5 +107,30 @@ On peut par exemple s'en servir pour implémenter un classe mère qui ne sera ja
 #### Mot-clé
 
 `abstract`
+
+#### Exemple
+
+```php
+namespace MonProjet\Entity;
+
+abstract class Vehicle
+{
+    public $type;
+
+    public function getSeatedPassengers($task) {
+        //code
+    }
+}
+
+/* -------------------- EOF -------------------- */
+
+class Plane extends Vehicle {
+
+    public $type;
+
+    public $company;
+}
+
+```
 
 [Retour au cours](../cours.md)
