@@ -8,6 +8,12 @@ PSR : Standardisation des concepts de programmation en php
 
 http://www.php-fig.org/psr/
 
+| # | Titre | Explication |
+| --- | --- | --- |
+| 1 | Basic Coding Standard | Permission d'un haut niveau d’interopérabilité entre les morceaux de code PHP partagés |
+| 2 | Coding Style Guide | Extension de la psr-1 pour maximiser les échanges entre développeurs |
+| 4 | Autoloading Standard  | Méthode de chargement des classes depuis le système de fichier |
+
 ## "Règles" de développement
 
 Ce ne sont pas des règles à respecter sans condition, ce sont simplement des lignes directrices nés de nombreuses années de développement.
@@ -108,5 +114,9 @@ Certains logiciels de gestion de version intègrent directement une fonctionnali
 ## Autres conseils
 
 * Backup fréquent
+
+* Eviter les instructions trop longues
+
+* Rédiger la documentation en anglais
 
 [Retour au cours](../cours.md)
