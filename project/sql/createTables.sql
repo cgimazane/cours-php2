@@ -2,7 +2,7 @@
 CREATE TABLE article (
 	id SERIAL,
 	title VARCHAR (50),
-        content TEXT,
+	content TEXT,
 	publication_date timestamp,
 	PRIMARY KEY(id)
 );
