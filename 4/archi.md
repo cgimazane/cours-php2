@@ -8,9 +8,9 @@
 
 * Modèle destiné à répondre aux besoins des applications interactives
 * Séparation des problématiques
-    1. un modèle (modèle de données) ;
-    2. une vue (présentation, interface utilisateur) ;
-    3. un contrôleur (logique de contrôle, gestion des événements, synchronisation).
+	1. un modèle (modèle de données) ;
+	2. une vue (présentation, interface utilisateur) ;
+	3. un contrôleur (logique de contrôle, gestion des événements, synchronisation).
 * Cadre normalisé
 * Facilitation de communication entre développeurs
 
@@ -35,13 +35,13 @@
 ## C'est quoi ?
 
 * Une multitude d'outils mis à disposition pour
-    - Gagner du temps
-    - Ecrire moins de code
-    - Limiter les erreurs
-    - Accroître la productivité
+	- Gagner du temps
+	- Ecrire moins de code
+	- Limiter les erreurs
+	- Accroître la productivité
 * Une méthodologie
-    - Définition d'une approche structurée
-    - Maîtrise de l'architecture
+	- Définition d'une approche structurée
+	- Maîtrise de l'architecture
 * Une documentation détaillée
 * Une communauté
 

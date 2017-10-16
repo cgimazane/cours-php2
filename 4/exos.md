@@ -7,12 +7,12 @@
 ## Objectifs
 
 * Reproduction et approfondissement des différents travaux qui ont été faits dans les exercices précédents
-    * Création des entités
-    * Création des CRUDControllers
-    * Création de la page de base
-    * Création de la page d'accueil
-    * Création des tests
-    * Réalisation du site
-    * Ajout de FOSUserBundle
+	* Création des entités
+	* Création des CRUDControllers
+	* Création de la page de base
+	* Création de la page d'accueil
+	* Création des tests
+	* Réalisation du site
+	* Ajout de FOSUserBundle
 
 [Retour au cours](../cours.md)

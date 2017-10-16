@@ -13,13 +13,13 @@ Elle définissent un rôle, s'ouvrent et se ferment et ont des attributs (`id`, 
 ```html
 <!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Titre de la page</title>
-    </head>
-    <body>
-        <!-- Le contenu de votre page -->
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Titre de la page</title>
+	</head>
+	<body>
+		<!-- Le contenu de votre page -->
+	</body>
 </html>
 ```
 
@@ -33,9 +33,9 @@ On définit des __styles__ composés :
 
 ```css
 h1 > span {
-         font-family: Arial;
-         color: #0f5;
-         border-left: 4px solid aquamarine;
+	font-family: Arial;
+	color: #0f5;
+	border-left: 4px solid aquamarine;
 }
 ```
 
@@ -49,7 +49,7 @@ On gère entre autres les __événements__ grâce aux différentes __fonctions__
 <button onclick="maSuperAlerte()">Mon bouton</button>
 <script>
 function maSuperAlerte() {
-    alert('attention...');
+	alert('attention...');
 }
 </script>
 ```
@@ -77,11 +77,11 @@ On propose à l'utilisateur de fournir des données/informations.
 
 ```html
  <form action="result.php" method="POST">
-     <input type="text" name="name" placeholder="Nom" />
-     <label for="age">Age :
-         <input type="number" name="age" min="1" />
-     </label>
-     <input type="submit" value="Submit" />
+	 <input type="text" name="name" placeholder="Nom" />
+	 <label for="age">Age :
+		 <input type="number" name="age" min="1" />
+	 </label>
+	 <input type="submit" value="Submit" />
  </form>
 ```
 
@@ -113,7 +113,7 @@ On propose à l'utilisateur de fournir des données/informations.
 
 - ...
 
-# Expressions régulières
+# Expressions régulières
 
 > Chaîne de caractères, qui décrit, selon une syntaxe précise, un ensemble de chaînes de caractères possibles.
 >
@@ -123,7 +123,7 @@ On propose à l'utilisateur de fournir des données/informations.
 
 ```php
 <?php
-    preg_match($regExp, $string);
+	preg_match($regExp, $string);
 ?>
 ```
 
@@ -157,8 +157,8 @@ Il existe beaucoup de cheatsheets listant de nombreux attributs, balises, styles
 Sinon y'a StackOverflow
 
 * giyf
-    - lmgtfy
-        + jfgi
-            * stfw
+	- lmgtfy
+		+ jfgi
+			* stfw
 
 [Retour au cours](../cours.md)

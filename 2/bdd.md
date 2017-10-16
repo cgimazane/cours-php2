@@ -81,22 +81,22 @@ class AbstractManager
 {
 	public function find(){
 
-        }
+	}
 }
 
 
 class PersonManager extends AbstractManager
 {
 	public function find(){
-                //do something
-        }
+		//do something
+	}
 }
 
 class TaskManager extends AbstractManager
 {
 	public function find(){
-                //do something else
-        }
+		//do something else
+	}
 }
 ```
 

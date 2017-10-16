@@ -9,7 +9,7 @@ Démarrage et lancement du projet
 * Lecture du cahier des charges
 * Création composer.json
 * Structure du projet
-    * Structure de la base de données
+	* Structure de la base de données
 * Création de la base de données
 
 [Retour au cours](../cours.md)
