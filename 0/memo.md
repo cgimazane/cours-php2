@@ -4,7 +4,7 @@
 
 ## html
 
-C'est le __contenu__ du document (interprété par le navigateur)
+C'est le __contenu__ du document interprété par le navigateur : le fond.
 
 On utilise des __balises__ écrites en *minuscules* : `<div id="menu"></div>` ou `<html lang="fr"></html>`
 
@@ -25,7 +25,7 @@ Elle définissent un rôle, s'ouvrent et se ferment et ont des attributs (`id`, 
 
 ## css
 
-C'est la __mise en page__ du document (interprété par le navigateur)
+C'est la __mise en page__ du document interprété par le navigateur : la forme.
 
 On définit des __styles__ composés :
 * d'un sélecteur (`h1`, `#menu`)
@@ -41,9 +41,9 @@ h1 > span {
 
 ## js
 
-C'est l'__animation__ du document (interprété par le navigateur) : dessin, cartographie...
+C'est l'__animation__ du document interprété par le navigateur : dessin, cartographie...
 
-On gère les __événements__ grâce aux différentes __fonctions__ définies préalablement...
+On gère entre autres les __événements__ grâce aux différentes __fonctions__ définies préalablement...
 
 ```html
 <button onclick="maSuperAlerte()">Mon bouton</button>
@@ -56,9 +56,9 @@ function maSuperAlerte() {
 
 ## php
 
-C'est le __traitement__ du document (interprété par le serveur)
+C'est le __traitement__ du document interprété par le serveur : les traitements.
 
-On peut rendre un site dynamique : communiquer avec notre base de données ou d'autres traitements
+On peut rendre un site dynamique : communiquer avec notre base de données ou d'autres calculs.
 
 ```php
 $now = new DateTime();
@@ -73,7 +73,7 @@ $txt .= $birthYear;
 
 ## formulaires
 
-On propose à l'utilisateur de fournir des données/informations
+On propose à l'utilisateur de fournir des données/informations.
 
 ```html
  <form action="result.php" method="POST">
@@ -110,6 +110,8 @@ On propose à l'utilisateur de fournir des données/informations
 - Structurer proprement son projet
 
 - Utiliser des noms de fichiers ou de dossiers simples
+
+- ...
 
 # Liens utiles
 
