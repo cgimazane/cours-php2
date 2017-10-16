@@ -12,10 +12,27 @@
 
 Procédure qui va vérifier qu'une partie (unité) du code source a le fonctionnement attendu.
 
-On va généralement tester classe par classe.
-On va souvent créer un cas de test par type de données.
-
 _NB : on ne teste pas les getters/setters_
+
+### Règles de construction
+
+* UNE seule classe testée
+* Préfixage des fonctions par `test`
+* "Un test, une assertion"
+
+### Assertion
+
+Prédicat (expression booléenne : `true`/`false`) dont on attend qu'il soit vrai à un certain point dans le code.
+
+#### Exemples
+
+* assertArrayHasKey()
+* assertEquals()
+* assertFalse()
+* assertSame()
+* assertTrue()
+* assertGreaterThan()
+
 
 ### Utilité
 
