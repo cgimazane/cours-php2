@@ -24,7 +24,7 @@ $stmt = $db->query($query);
 $allResults = $stmt->fetchAll();
 
 /** 2nd type de requete **/
-$query = 'DELETE FROM person WHERE nom="Patamob";';
+$query = 'DELETE FROM person WHERE nom="Terieur";';
 
 $rowCount = $db->exec($query);
 
