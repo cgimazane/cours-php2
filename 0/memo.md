@@ -152,7 +152,7 @@ Si besoin dans une expression régulière, on peut les échapper avec un `\`.
 
 # Liens utiles
 
-Il existe beaucoup de cheatsheets listant de nombreux attributs, balises, styles, fonctions ou différentes exmples d'utilisation dans des cas concrets ...
+Il existe beaucoup de cheatsheets listant de nombreux attributs, balises, styles, fonctions ou différentes exemples d'utilisation dans des cas concrets ...
 
 Sinon y'a StackOverflow
 
