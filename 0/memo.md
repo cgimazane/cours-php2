@@ -113,6 +113,43 @@ On propose à l'utilisateur de fournir des données/informations.
 
 - ...
 
+# Expressions régulières
+
+> Chaîne de caractères, qui décrit, selon une syntaxe précise, un ensemble de chaînes de caractères possibles.
+>
+> --- Wikipedia
+
+## Utilisation
+
+```php
+<?php
+    preg_match($regExp, $string);
+?>
+```
+
+| opérateur | explication |
+| --- | --- |
+| #mot# | Cherche le mot "mot" dans la chaîne. |
+| #mot&#124;word# | Cherche le mot "mot" ou "word" dans la chaîne. |
+| #^mot# | La chaîne doit commencer par "mot". |
+| #mot$# | La chaîne doit se terminer par "mot". |
+| #^mot$# | La chaîne doit commencer et finir par "mot". |
+| #m[aeiou]t# | Cherche le mot "mat" ou "met" ou "mit" ou "mot" ou "mut" dans la chaîne. |
+| [a-z] | Caractères minuscules de a à z |
+| #[^0-9]# | Chaîne sans chiffre |
+| #a?# | "a" peut apparaître 0 ou 1 fois. |
+| #a+# | "a" doit apparaître au moins 1 fois. |
+| #a*# | "a" peut apparaître 0, 1 ou plusieurs fois. |
+| #a{3}# | "a" doit apparaître 3 fois exactement. |
+
+
+### Métacaractères
+
+Les métacaractères (caractères utilisés dans la syntaxe) sont :
+`#` `!` `^` `$` `(` `)` `[` `]` `{` `}` `|` `?` `+` `*` `.`
+
+Si besoin dans une expression régulière, on peut les échapper avec un `\`.
+
 # Liens utiles
 
 Il existe beaucoup de cheatsheets listant de nombreux attributs, balises, styles, fonctions ou différentes exmples d'utilisation dans des cas concrets ...
